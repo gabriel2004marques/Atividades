@@ -1,0 +1,19 @@
+<html>
+
+     <head>
+
+        <title>Parcelas</title>
+        <link rel = "stylesheet" href = "styles2.css">
+
+        <script>
+
+            var parcelas = parseFloat(prompt(" A Loja Remi du Fromage está com uma promoção onde cada capacete artesanal para tartaruga custa R$18.230 e pode ser pago em até 15 vezes sem juros. Escolha quantas parcelas você deseja pagar"))
+            var conta = 18230 / parcelas
+
+            alert("Você escolheu pagar "+parcelas+" parcelas , então você terá que pagar um total de R$"+conta.toFixed(2)+" reais.")
+
+        </script>
+
+    </head>
+
+</html>

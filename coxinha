@@ -1,0 +1,16 @@
+<html>
+
+     <head>
+         
+        <title>Qual-é-o-seu-nome</title>
+
+        <script>
+
+            var nome = prompt("Qual é o seu nome ?")
+            alert("Ola "+nome+" ! Bem vindo ao site")
+
+        </script>
+    
+    </head>
+
+</html>

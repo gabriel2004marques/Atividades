@@ -1,0 +1,25 @@
+<html>
+
+     <head>
+
+        <title>Peso</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var Gênero = prompt("De qual genero voce é ? (Digite 1 para masculino e 2 para feminino");
+            var h = parseFloat(prompt("Qual é a sua altura ? (Em metros)"));
+            var pesoHomem = (72.7 * h) - 58;
+            var pesoMulher = (62.1 * h) - 44.7;
+
+            if(Gênero == 1) {
+                alert("O peso ideal para voce é : "+pesoHomem.toFixed(0)+" quilos.");
+            } else if(Gênero == 2) {
+                alert("O peso ideal para voce é : "+pesoMulher.toFixed(0)+" quilos.");
+            }
+
+        </script>
+
+    </head>
+
+</html>

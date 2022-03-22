@@ -1,0 +1,34 @@
+<html>
+
+     <head>
+
+        <title>Soma</title>
+        <link rel = "stylesheet" href = "styles2.css">
+
+        <script>
+
+            var N1 = parseInt(prompt("Escreva um número"))
+            var N2 = parseInt(prompt("Escreva outro número"))
+            var N3 = parseInt(prompt("Escreva outro número"))
+            var somaN1N2 = N1 + N2
+            var somaN1N3 = N1 + N3
+            var somaN2N3 = N2 + N3
+
+            if(N1 < N2 && N1 < N3) {
+                alert("A soma entre "+N2+" e "+N3+" é : "+somaN2N3+". Fim")
+            } 
+            if(N2 < N1 && N2 < N3) {
+                alert("A soma entre "+N1+" e "+N3+" é : "+somaN1N3+". Fim")
+            } else if(N3 < N1 && N3 < N2) {
+                alert("A soma entre "+N1+" e "+N2+" é : "+somaN1N2+". Fim")
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+    </body>
+
+</html>

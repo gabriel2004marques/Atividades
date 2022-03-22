@@ -1,0 +1,26 @@
+<html>
+
+     <head>
+
+          <title>Grenal</title>
+          <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var Grêmio = parseFloat(prompt("Quantos gols o Grêmio já marcou em um grenal ?"))
+            var Inter = parseFloat(prompt("Quantos gols o Internacional já marcou em um grenal ?"))
+
+            if(Grêmio > Inter) {
+                alert("O Grêmio é o vencedor !")
+            } else if(Grêmio == Inter) {
+                alert("Empate !")
+            }
+            if(Grêmio < Inter) {
+                alert("O Internacional é o vencedor !")
+            }
+
+        </script>
+
+    </head>
+
+</html>

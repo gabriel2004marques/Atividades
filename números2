@@ -1,0 +1,26 @@
+<html>
+
+     <head>
+
+        <title>Números2</title>
+
+        <script>
+
+            var N1 = prompt("Digite um número ")
+            
+            if (N1 > 0) {
+              alert("Este número é positivo") 
+           } else if(N1 < 0) {
+               alert("Este número é negativo")
+           } else if(N1 == 0) {
+               alert("Este número é igual a 0 ")
+           }
+
+        </script>
+
+    </head>
+
+<body>
+</body>
+
+</html>

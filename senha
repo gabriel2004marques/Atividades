@@ -1,0 +1,25 @@
+<html>
+
+     <head>
+
+        <title>Senha</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var Senha = parseFloat(prompt("Digite a senha para poder entrar "))
+
+            if(Senha == 1234) {
+                alert("Acesso Permitido")
+            } else if(Senha < 1234) {
+                alert("Acesso negado")
+            }
+            if(Senha > 1234) {
+                alert("Acesso negado")
+            }
+
+        </script>
+
+    </head>
+
+</html>

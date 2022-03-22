@@ -1,0 +1,23 @@
+<html>
+
+    <head>
+
+        <title>18tão</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var ano = parseFloat(prompt("Em que ano voce nasceu ?"))
+            var Idade = 2022 - ano
+
+            if(Idade >= 18) {
+                alert("Parabens ! Voce pode votar neste ano !")
+            } else if(Idade < 18) {
+                alert("Infelizmente voce nao podera votar neste ano")
+            }
+
+        </script>
+
+    </head>
+
+</html>

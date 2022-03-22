@@ -1,0 +1,23 @@
+<html>
+
+     <head>
+         <title>Somas4</title>
+         <link rel = "stylesheet" href = "styles2.css">
+
+         <script>
+
+             var N1 = parseFloat(prompt("Escreva um número menor que 72"))
+             var N2 = parseFloat(prompt("Escreva outro número menor que 72"))
+             var N3 = parseFloat(prompt("Escreva outro número menor que 72"))
+             var N4 = parseFloat(prompt("Escreva outro número menor que 72"))
+             var N5 = parseFloat(prompt("Escreva outro número menor que 72"))
+             var N6 = parseFloat(prompt("Escreva outro número menor que 72"))
+             var soma = N1 + N2 + N3 + N4 + N5 + N6
+
+             alert("A soma entre os números "+N1+", "+N2+", "+N3+", "+N4+", "+N5+" e "+N6+" é "+soma+". Fim")
+         
+        </script>
+     
+     </head>
+ 
+ </html>

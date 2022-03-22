@@ -1,0 +1,33 @@
+<html>
+
+    <head>
+
+        <title>Matemática</title>
+
+        <script>
+            var baseRetangulo = prompt("Escreva a base de um retangulo")
+            var alturaRetangulo = prompt("Escreva a altura de um retangulo")
+            var resultado = baseRetangulo*alturaRetangulo
+            var ladoQuadrado = prompt("O resultado desse retangulo é : "+resultado+". Agora escreva o lado de um quadrado")
+            var resultadoQuadrado = ladoQuadrado*ladoQuadrado
+            var diagonalMAlosango = prompt("A área desse quadrado é : "+resultadoQuadrado+". Agora escreva a diagonal maior de um losango ")
+            var diagonalMElosango = prompt("Agora escreva a diagonal menor desse losango ")
+            var resultadoLosango = diagonalMAlosango*diagonalMElosango/2
+            var baseMAtrapezio = prompt("A área desse losango é : "+resultadoLosango+". Agora escreva a base maior de um trapézio ")
+            var baseMEtrapezio = prompt("Agora escreva a base menor desse trapezio ")
+            var alturaTrapezio = prompt("Agora escreva a altura desse trapezio ")
+            var resultadoTrapezio = baseMAtrapezio*baseMEtrapezio*alturaTrapezio/2
+            var baseParalelogramo = prompt("A área desse trapezio é : "+resultadoTrapezio+". Agora escreva a base de um paralelogramo ")
+            var alturaParalelogramo = prompt("Agora escreva a altura desse paralelogramo ")
+            var resultadoParalelogramo = baseParalelogramo*alturaParalelogramo
+            var baseTriângulo = prompt("A área desse paralelogramo é : "+resultadoParalelogramo+". Agora escreva a base de um triângulo ")
+            var alturaTriângulo = prompt("Agora escreva a altura desse triângulo ")
+            var resultadoTriângulo = baseTriângulo*alturaTriângulo/2
+            var raioCírculo = prompt("A área desse triângulo é : "+resultadoTriângulo+"Agora escreva o raio de um círculo ")
+            var resultadoCírculo = raioCírculo*raioCírculo*3.14
+            alert("A área desse círculo é : "+resultadoCírculo+". FIM")
+        </script>
+
+    </head>
+
+</html>

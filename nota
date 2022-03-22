@@ -1,0 +1,28 @@
+<html>
+
+     <head>
+
+        <title>Notas</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+          var Nome = prompt("Nome do aluno :")
+          var Nota1 = parseFloat(prompt("Nota em portugues do aluno :"))
+          var Nota2 = parseFloat(prompt("Nota do aluno em matematica :"))
+          var Nota3 = parseFloat(prompt("Nota do aluno em informatica :"))
+          var Nota4 = parseFloat(prompt("Nota do aluno em historia :"))
+          var resultado1 = Nota1 + Nota2 + Nota3 + Nota4
+          var resultadoFinal = resultado1 / 2
+
+          if(resultadoFinal >= 6) {
+              alert("Parabens ! O aluno "+Nome+" passou de ano !")
+          } else if(resultadoFinal < 6) {
+              alert("O aluno "+Nome+" foi reprovado .")
+          }
+
+        </script>
+
+    </head>
+
+</html>

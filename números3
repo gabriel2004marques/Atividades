@@ -1,0 +1,31 @@
+<html>
+
+     <head>
+
+        <title>Números3</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+            
+            var N1 = parseFloat(prompt("Digite um número "))
+            var N2 = parseFloat(prompt("Digite outro número "))
+            var N3 = parseFloat(prompt("Digite outro número"))
+            
+            if (N1 > N2) {
+              alert("O maior número é o : "+N1+" . Fim") 
+           }
+             else if (N2 < N3) {
+               alert("O maior número é : "+N3+" . Fim")
+           } else if (N2 > N1) {
+               alert("O maior número é : "+N2+" . Fim")
+           }
+          
+
+        </script>
+
+    </head>
+
+<body>
+</body>
+
+</html>

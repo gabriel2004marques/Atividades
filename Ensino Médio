@@ -1,0 +1,36 @@
+<html>
+
+     <head>
+
+        <title>EnsinoMédio</title>
+        <link rel="stylesheet" href="Styles.css">
+
+        <script>
+
+            var kmDia = parseFloat(prompt("Um motorista de taxi deseja calcular o rendimento de seu carro na praça. Escreva a quantidade de km que o carro marcava no inicio do dia"))
+            var kmCarro = parseFloat(prompt("Agora escreva quantos km o carro percorre a cada hora "))
+            var lucro = parseFloat(prompt("Agora escreva quanto o motorista cobra a cada corrida"))
+            var pessoas = parseFloat(prompt("Agora escreva quantas corridas ele fez no dia "))
+            var gasosa = parseFloat(prompt("Agora escreva quanto tempo o tanque do carro dura estando cheio"))
+            var tempo = parseFloat(prompt("Escreva quanto tempo o motorista ficou na rua"))
+            var resultadoKm = kmCarro * tempo
+            var resultadoGasosa = gasosa / tempo
+            var resultadoLucro = lucro * pessoas 
+            var resultadoGasosa2 = resultadoGasosa * 2.90
+            var resultadoFinal = resultadoLucro - resultadoGasosa2
+            
+            alert("No inicio do dia o carro marcava "+kmDia+" km percorridos , ja no final do dia o carro marcava "+resultadoKm.toFixed(1)+" km percorridos")
+            alert("O motorista fez um total de "+pessoas+" corridass no dia , entao ele acabou lucrando um total de R$ "+resultadoLucro.toFixed(1)+" com as corridas")
+            alert("O motorista ficou fazendo corridas por um total de "+tempo.toFixed(1)+" horas , e gastou um total de "+resultadoGasosa.toFixed(1)+" litros de gasolina ")
+            alert("Por causa disso , o motorista gastou um total de R$ "+resultadoGasosa2.toFixed(1)+" reais de gasolina no dia")
+            alert("Considerando que ele pagou a gasolina com parte do lucro das corridas , ele no final do dia teve um lucro total de R$ "+resultadoFinal.toFixed(1)+". Fim")
+
+        </script>
+
+    </head>
+
+    <body>
+
+    </body>
+
+</html>

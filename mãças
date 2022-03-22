@@ -1,0 +1,24 @@
+<html>
+
+    <head>
+
+        <title>Maçãs</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var Maçã = parseFloat(prompt("Voce está em um mercado e deseja comprar maças , quantas voce comprou ?"))
+            var resultado1 = Maçã * 0.30
+            var resultado2 = Maçã * 0.25
+
+            if(Maçã < 12) {
+                alert("Voce decidiu comprar "+Maçã+ " maçãs , por isso voce ira pagar um total de R$ "+resultado1+" reais.")
+            } else if(Maçã >= 12) {
+                alert("Voce decidiu comprar "+Maçã+ " maçãs , por isso voce ira pagar um total de R$ "+resultado2+" reais.")
+            }
+
+        </script>
+
+    </head>
+
+</html>

@@ -1,0 +1,52 @@
+<html>
+
+    <head>
+
+        <title>Notas2</title>
+        <link rel = "stylesheet" href = "Styles.css">
+
+        <script>
+
+            var Nome = prompt("Qual é o nome do aluno ?")
+            var N1 = parseFloat(prompt("Nota do aluno em Português :"))
+            var N2 = parseFloat(prompt("Nota do aluno em Matemática :"))
+            var NO = parseFloat(prompt("Nota do aluno em Informática :"))
+            var resultado1 = (N1 + N2) / 2
+            var resultado2 = (N1 + NO) / 2
+            var resultado3 = (N2 + NO) / 2
+
+            if(N1 > NO && N2 > NO) {
+                alert("A média do aluno "+Nome+" é : "+resultado1+". Fim")
+            } else if(NO == N1 && NO == N2) {
+                alert("A média do aluno "+Nome+" é : "+resultado1+". Fim")
+            }
+            if(NO > N1) {
+                alert("A média do aluno "+Nome+" é : "+resultado3+". Fim")
+            } else if(NO > N2) {
+                alert("A média do aluno "+Nome+" é : "+resultado2+". Fim")
+            }
+            if(6 < resultado1) {
+                alert("O aluno "+Nome+" foi aprovado")
+            } else if (6 > resultado1) {
+                alert("O aluno "+Nome+" foi reprovado")
+            } else if(6 < resultado2) {
+                alert("O aluno "+Nome+" foi aprovado")
+            } else if(6 > resultado2) {
+                alert("O aluno "+Nome+" foi reprovado")
+            } else if(6 < resultado3) {
+                alert("O aluno "+Nome+" foi aprovado")
+            } else if(6 > resultado3) {
+                alert("O aluno "+Nome+" foi reprovado")
+            } else if(6 == resultado1) {
+                alert("O aluno "+Nome+" foi aprovado")
+            } else if(6 == resultado2) {
+                alert("O aluno "+Nome+" foi aprovado")
+            } else if(6 == resultado3) {
+                alert("O aluno "+Nome+" foi aprovado")
+            }
+            
+        </script>
+
+    </head>
+
+</html>

@@ -1,0 +1,29 @@
+<html>
+
+     <head>
+
+        <title>Somas2</title>
+        <link rel = "stylesheet" href = "styles2.css">
+
+        <script>
+
+            var N1 = parseFloat(prompt("Escreva um número"))
+            var N2 = parseFloat(prompt("Escreva outro número"))
+            var N3 = parseFloat(prompt("Escreva outro número"))
+            var N4 = parseFloat(prompt("Escreva outro número"))
+            var N5 = parseFloat(prompt("Escreva outro número"))
+            var N6 = parseFloat(prompt("Escreva outro número"))
+            var N7 = parseFloat(prompt("Escreva outro número"))
+            var N8 = parseFloat(prompt("Escreva outro número"))
+            var N9 = parseFloat(prompt("Escreva outro número"))
+            var N10 = parseFloat(prompt("Escreva outro número"))
+            var soma = N1 + N2 + N3 + N4 + N5 + N6 + N7 + N8 + N9 + N10
+            var divisão = soma / 2
+
+            alert("A média desses números é : "+divisão+". Fim")
+
+        </script>
+
+    </head>
+
+</html>

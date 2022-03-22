@@ -1,0 +1,15 @@
+<html>
+
+     <head>
+
+        <title>Estou-Velho</title>
+
+        <script>
+            var nome = prompt("Qual é o seu nome ?")
+            var idade = prompt("E qual é a sua idade ?")
+            alert("Ola "+nome+" ! Sua idade é de "+idade+" anos")
+        </script>
+
+    </head>
+
+</html>

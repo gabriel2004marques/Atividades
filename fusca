@@ -1,0 +1,16 @@
+<html>
+
+    <head>
+
+        <title>Fusca-Rebaixado</title>
+
+        <script>
+
+        var NomeDoCarro = "Fusca";
+        alert(NomeDoCarro)
+
+        </script>
+   
+    </head>
+
+</html>

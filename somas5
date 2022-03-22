@@ -1,0 +1,27 @@
+<html>
+
+     <head>
+
+        <title>Soma5</title>
+        <link rel = "stylesheet" href = "styles2.css">
+
+        <script>
+
+            var N1 = parseFloat(prompt("Escreva um número entre 0 e 10"))
+            var N2 = parseFloat(prompt("Escreva outro número entre 0 e 10"))
+            var N3 = parseFloat(prompt("Escreva outro número entre 0 e 10"))
+            var N4 = parseFloat(prompt("Escreva outro número entre 0 e 10"))
+            var soma = N1 + N2 + N3 + N4
+            var divisão = soma / 2
+
+            if(divisão > 5) {
+                alert("A média entre "+N1+", "+N2+", "+N3+" e "+N4+" é "+divisão+" . Parabéns ! Você passou no teste !")
+            } else if(divisão < 5) {
+                alert("A média entre "+N1+", "+N2+", "+N3+" e "+N4+" é "+divisão+" . Tente novamente")
+            }
+
+        </script>
+
+    </head>
+
+</html>

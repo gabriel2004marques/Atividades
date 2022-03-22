@@ -1,0 +1,25 @@
+<html>
+
+     <head>
+
+        <title>Números</title>
+
+        <script>
+            
+            var N1 = prompt("Digite um número de 1 a 9 ")
+            var N2 = prompt("Digite outro número de 1 a 9")
+            
+            if (N1 > N2) {
+              alert("O maior número é o : "+N1+" Fim") 
+           } else if(N1 < N2) {
+               alert("O maior número é : "+N2+" Fim")
+           }
+
+        </script>
+
+    </head>
+
+<body>
+</body>
+
+</html>
